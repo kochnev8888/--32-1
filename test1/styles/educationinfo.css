@@ -1,0 +1,137 @@
+.education-info {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 289px;
+    margin-bottom: 12px;
+}
+
+
+.education-info__container {
+    display: flex; /* Используем flexbox для размещения элементов по горизонтали */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    width: 100%;
+}
+
+
+.education-info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+    width: 116px;
+}
+
+.education-info__list-two {
+    display: flex;
+    gap: 10px;
+    width: 116px;
+    height: 108px;
+    margin-top: 12px;
+}
+
+.education-info__list-three {
+    display: flex;
+    gap: 10px;
+    width: 116px;
+    height: 96px;
+    margin-top: 12px;
+}
+
+
+
+.education-info__list-item {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+    
+}
+
+.education-info__list-item.selected {
+    color: #fff;
+    background: #28d979;
+    
+}
+
+
+.education-info__job-name.selected {
+    color: #149063;
+}
+
+.education-info__header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.education-info__period {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    
+}
+
+.education-info__bottom {
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+    
+}
+
+.education-info__label {
+    color: #ddf163;
+    line-height: 155%;
+    font-size: 8px;
+}
+
+.education-info__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-info__job {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-info__job-specialty {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-top: 8px;
+       
+}
+
+.education-info_job-bottom {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 8px;
+}
+
+.education-info__list-item.selected .education-info_job-bottom {
+    color: #ebf9f2;
+}
+
+.education-info__job-name{
+    font-size: 8px;
+}
+
+.education-info__responsibility-list {
+    width: 239px; /* Ширина списка */
+    margin-top: 8px; /* Отступ сверху */
+    margin-left: 8px; /* Отступ слева */
+    padding-left: 8px; /* Отступ внутри списка */
+    margin-bottom: 0px;
+    box-sizing: border-box; /* padding учитывается в ширине */
+    
+}
+
+.education-info__responsibility-list-item {
+    font-size: 8px;
+    line-height: 150%;  
+}
